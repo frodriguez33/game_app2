@@ -1,2 +1,25 @@
-<h1>Pages#lizard</h1>
-<p>Find me in app/views/pages/lizard.html.erb</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game Selection | Lizard</title>
+  </head>
+  <body>
+    <h1>Rock, Paper, Scissors, Spock, Lizard Game</h1>
+    <p> You selected Lizard </p>
+
+    <% if @outcome == "1" %>
+      <p> You tied with the computer, better luck next time.  </p>      
+    <% end %>
+
+    <% if @outcome == "2" %>
+      <p> You Won!  </p>      
+    <% end %>
+
+    <% if @outcome == "3" %>
+      <p> You lost. :<  </p>      
+    <% end %>  
+
+    </p>
+  </body>
+</html>
+

@@ -5,13 +5,15 @@ GameApp2::Application.routes.draw do
 
   get "pages/scissors"
 
-  get "pages/spock"
-
   get "pages/lizard"
+
+  get "pages/spock"
 
   get "pages/throw"
 
   get "pages/stats"
+  
+  get "pages/home"  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

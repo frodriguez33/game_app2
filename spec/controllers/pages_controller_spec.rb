@@ -2,6 +2,13 @@ require 'spec_helper'
 
 describe PagesController do
 
+  describe "GET 'home'" do
+    it "should be successful" do
+      get 'home'
+      response.should be_success
+    end
+  end
+  
   describe "GET 'paper'" do
     it "should be successful" do
       get 'paper'
@@ -23,16 +30,16 @@ describe PagesController do
     end
   end
 
-  describe "GET 'spock'" do
+  describe "GET 'lizard'" do
     it "should be successful" do
-      get 'spock'
+      get 'lizard'
       response.should be_success
     end
   end
 
-  describe "GET 'lizard'" do
+  describe "GET 'spock'" do
     it "should be successful" do
-      get 'lizard'
+      get 'spock'
       response.should be_success
     end
   end

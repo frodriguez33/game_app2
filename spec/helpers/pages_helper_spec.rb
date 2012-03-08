@@ -11,5 +11,22 @@ require 'spec_helper'
 #   end
 # end
 describe PagesHelper do
-  pending "add some examples to (or delete) #{__FILE__}"
+
+	describe "validation of the outcome" do
+		let(:outcome) 
+		
+		it "passes with" do
+			outcome = "1"
+		end
+
+		it "passes with" do
+			outcome = "2"
+		end
+
+		it "passes with" do
+			outcome = "3"
+		end
+		
+	end
+
 end
